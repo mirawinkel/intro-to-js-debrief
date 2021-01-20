@@ -2,8 +2,7 @@ let myNumber = Math.floor(Math.random() * 100);
 
 if (typeof(myNumber) != "number") {
     console.log('This is not a number');
-}
-    else if (myNumber % 3 === 0 && myNumber % 5 === 0) {
+}   else if (myNumber % 3 === 0 && myNumber % 5 === 0) {
         console.log('GenBuzz');
 }   else if (myNumber % 3 === 0) {
     console.log('Gen');
@@ -11,7 +10,7 @@ if (typeof(myNumber) != "number") {
     console.log('Buzz');
 }   else {
     console.log(myNumber);
-}
+};
 
 const item = () => {
     let itemPicker = Math.floor(Math.random() *5);
@@ -29,7 +28,7 @@ const item = () => {
     } else {
         console.log('Invalid Item')
     }
-}
+};
 
 switch(item ()) {
     case 'Shoes':
@@ -43,7 +42,7 @@ switch(item ()) {
         break;
     case 'Socks':
         console.log('Socks are $2');
-}
+};
 
-console.log((Math.round(Math.random() *50)) + 50)
+console.log((Math.round(Math.random() *50)) + 50);
 
